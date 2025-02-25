@@ -18,7 +18,7 @@ st.write(
 )
 
 password_guess = st.text_input("What is the Password?")
-if password_guess != st.secrets('password'):
+if password_guess != st.secrets['password']:
     st.write("Incorrect Password, please try again.")
     st.stop()
 
