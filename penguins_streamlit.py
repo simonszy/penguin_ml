@@ -18,8 +18,7 @@ st.write(
 )
 
 password_guess = st.text_input("What is the Password?")
-if password_guess != st.secrets["password"]:
-    st.write("Incorrect Password, try again.")
+if password_guess != "streamlit_is_great":
     st.stop()
 
 
